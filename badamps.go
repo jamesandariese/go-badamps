@@ -2,7 +2,6 @@ package badamps
 
 import (
 	"bytes"
-	"encoding/xml"
 	"io"
 	"regexp"
 )
