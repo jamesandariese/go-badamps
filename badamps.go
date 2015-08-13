@@ -23,7 +23,7 @@ var badAmpFinder *regexp.Regexp = regexp.MustCompile("&[^ ;]* ")
 // For another day.  Probably not though.  This is plenty fast
 // enough :D
 
-func fixedBytes(badXML []byte) []byte {
+func FixedBytes(badXML []byte) []byte {
 	badAmps := badAmpFinder.FindAllIndex([]byte(badXML), -1)
 
 	fixedXMLBuffer := &bytes.Buffer{}
