@@ -1,4 +1,4 @@
-# `BadAmps` - fix bad XML that uses & rather than &amp;
+# `BadAmps` - fix bad XML that uses & rather than &amp;amp;
 
 From the code:
 
